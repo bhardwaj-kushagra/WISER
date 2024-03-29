@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3c6CPYS0W"
-#define BLYNK_TEMPLATE_NAME "weather moniter"
-#define BLYNK_AUTH_TOKEN "nSV3UVSbAyS7yr0m4_KUN0LRek9MGPz-"
+#define BLYNK_TEMPLATE_ID "your_Template_ID"
+#define BLYNK_TEMPLATE_NAME "Your_Template_Name"
+#define BLYNK_AUTH_TOKEN "your_auth_token"
 #define BLYNK_PRINT Serial
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
@@ -24,13 +24,14 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Error";  // type your wifi name
-char pass[] = "99999998";  // type your wifi password
+char ssid[] = "Wifi_SSID(name)";  // type your wifi name
+char pass[] = "WiFi_Password";  // type your wifi password
 
 BlynkTimer timer;
 
 DHT dht(DHTPIN, DHTTYPE);
 
+//just some buffers. Modified in V3
 float btemp = 12.6;
 float bhumid = 24;
 int count = 0;
