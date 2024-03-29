@@ -1,6 +1,16 @@
 # WISER: Weather Information Sensor Environmental Reporter
 https://github.com/bhardwaj-kushagra/WISER/assets/114687412/d29f05af-7420-4be4-83c1-b53f0fcbd940
 
+### Important Note:
+
+**This repository is not fully updated yet. A major update is scheduled for April 2024, which will include
+1. Modifications to the README:
+   -adding procedures and guidelines
+   -dependencies
+   -troubleshooting/common errors
+2. Addition of new versions with enhanced features.**
+
+
 ## Overview
 WISER (Weather Information Sensor Environmental Reporter) is an ESP8266-based weather monitoring system that gathers environmental data such as temperature, humidity, pollution levels, and light intensity. This project provides real-time monitoring of environmental conditions and alerts users via email and push notifications based on predefined thresholds.
 
@@ -9,8 +19,6 @@ WISER currently has three versions:
 1. Blynk Version: This version uses the Blynk cloud service for remote monitoring and notification.
 2. ThingSpeak Version: This version utilizes ThingSpeak for data logging and visualization.
 3. Standalone Version: This version operates offline without relying on any cloud services.
-
-Please note that this repository is not fully updated yet. A major update is scheduled for April 2024, which will include modifications to the README and the addition of new versions with enhanced features.
 
 ## Features
 - Measures temperature and humidity using the DHT11 sensor.
