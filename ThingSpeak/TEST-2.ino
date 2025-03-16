@@ -53,5 +53,5 @@ void loop() {
   } else {
     Serial.println("Failed to send data to ThingSpeak");
   }
-  delay(2000);
+  delay(1000);
 }
