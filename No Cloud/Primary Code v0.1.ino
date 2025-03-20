@@ -98,10 +98,12 @@ void loop() {
   display.setCursor(0,0);
   display.println(F("Light Int: "));
   display.print(ldrValue?"LOW":"HIGH");
-  if(ldrValue == 1023)
+  if(ldrValue == 1023){
     digitalWrite(BUZZER, HIGH);
-  else
+  }
+  else{
     digitalWrite(BUZZER, LOW);
+  }
 
   display.display();
   delay(2000);
