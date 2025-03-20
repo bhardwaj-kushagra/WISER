@@ -48,7 +48,7 @@ void loop() {
   display.setTextColor(WHITE);
   display.setCursor(0, 28);
    
-  float temperature = dht.readTemperature();
+  float temperature = dht.readTemperature(); //DHT
 
   display.display();
   delay(2000);
