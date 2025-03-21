@@ -3,7 +3,7 @@ https://github.com/bhardwaj-kushagra/WISER/assets/114687412/d29f05af-7420-4be4-8
 
 ### Important Note:
 
-**This repository is not fully updated yet. A major update is scheduled for April 2024, which will include
+**This repository is not fully updated yet. A major update is scheduled, which will include
 1. Modifications to the README:
    -adding procedures and guidelines
    -dependencies
